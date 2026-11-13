@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="20 sistemas construídos, 5 demos no ar, 89 projetos com ESP32">
+<style>.c{animation:sobe .9s cubic-bezier(.23,1,.32,1) both}@keyframes sobe{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}@media (prefers-reduced-motion:reduce){.c{animation:none}}</style>
+<g font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif"><g class="c" style="animation-delay:0.0s"><rect x="6" y="6" width="388" height="138" rx="20" fill="#F4F6FF" stroke="#0B1240" stroke-opacity=".1"/>
+<text x="34" y="88" font-size="64" font-weight="800" letter-spacing="-2" fill="#2B3BFF">20</text>
+<text x="36" y="122" font-size="18" font-weight="600" fill="#0B1240">sistemas construídos</text></g><g class="c" style="animation-delay:0.15s"><rect x="406" y="6" width="388" height="138" rx="20" fill="#F4F6FF" stroke="#0B1240" stroke-opacity=".1"/>
+<text x="434" y="88" font-size="64" font-weight="800" letter-spacing="-2" fill="#0F9B6E">5</text>
+<text x="436" y="122" font-size="18" font-weight="600" fill="#0B1240">demos no ar para testar</text></g><g class="c" style="animation-delay:0.3s"><rect x="806" y="6" width="388" height="138" rx="20" fill="#F4F6FF" stroke="#0B1240" stroke-opacity=".1"/>
+<text x="834" y="88" font-size="64" font-weight="800" letter-spacing="-2" fill="#FF5D73">89</text>
+<text x="836" y="122" font-size="18" font-weight="600" fill="#0B1240">projetos com ESP32</text></g></g></svg>
