@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 168" width="1200" height="168" role="img" aria-label="Seu processo ainda vive no papel? Falar comigo">
+<style>.s{animation:vai 1.6s ease-in-out infinite}@keyframes vai{50%{transform:translateX(6px)}}@media (prefers-reduced-motion:reduce){.s{animation:none}}</style>
+<defs><clipPath id="c"><rect width="1200" height="168" rx="24"/></clipPath></defs>
+<g clip-path="url(#c)" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif"><rect width="1200" height="168" fill="#FFD23F"/><rect x="783" y="3" width="24" height="24" rx="5" fill="#0B1240" opacity="0.08"/><rect x="813" y="33" width="24" height="24" rx="5" fill="#0B1240" opacity="0.14"/><rect x="753" y="123" width="24" height="24" rx="5" fill="#0B1240" opacity="0.08"/><rect x="783" y="141" width="24" height="24" rx="5" fill="#0B1240" opacity="0.12"/><rect x="843" y="3" width="24" height="24" rx="5" fill="#0B1240" opacity="0.06"/><rect x="723" y="3" width="24" height="24" rx="5" fill="#0B1240" opacity="0.05"/>
+<text x="56" y="82" font-size="40" font-weight="800" letter-spacing="-1.2" fill="#0B1240">Seu processo ainda vive no papel?</text>
+<text x="58" y="118" font-size="19" font-weight="500" fill="#0B1240" opacity=".8">Me conta como é hoje. Eu mostro como fica em sistema.</text>
+<rect x="886" y="58" width="262" height="64" rx="32" fill="#0B1240" opacity=".25"/>
+<rect x="880" y="52" width="262" height="64" rx="32" fill="#0B1240"/>
+<text x="924" y="91" font-size="20" font-weight="700" fill="#F4F6FF">Falar comigo</text>
+<text class="s" x="1066" y="92" font-size="24" font-weight="700" fill="#FFD23F">→</text></g>
+</svg>
