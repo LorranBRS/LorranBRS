@@ -127,7 +127,7 @@ def numeros():
     W, H, g = 1200, 172, 18
     cw = (W - 2 * g) / 3
     dados = [("20", "sistemas construídos", "do agendamento ao CRM", COB, PAPEL, SOL),
-             ("5", "demos no ar", "abra e teste agora", TINTA, MENTA, MENTA),
+             ("7", "demos no ar", "abra e teste agora", TINTA, MENTA, MENTA),
              ("89", "projetos com ESP32", "quando o problema sai da tela", CORAL, TINTA, TINTA)]
     s = ""
     for i, (n, t, sub, bg, cn, px) in enumerate(dados):
@@ -146,7 +146,7 @@ def numeros():
 .q{{opacity:.16;animation:q 4s ease-in-out infinite}}@keyframes q{{0%,100%{{opacity:.16}}30%{{opacity:.7}}60%{{opacity:.16}}}}
 @media (prefers-reduced-motion:reduce){{*{{animation:none!important}}}}</style>
 <g {F}>{s}</g>'''
-    salvar("numeros.svg", W, H, "20 sistemas construídos, 5 demos no ar, 89 projetos com ESP32", corpo)
+    salvar("numeros.svg", W, H, "20 sistemas construídos, 7 demos no ar, 89 projetos com ESP32", corpo)
 
 # ---------------------------------------------------------------- workito
 def workito():
@@ -235,7 +235,7 @@ def stack():
     W, H = 1200, 196
     grupos = [("WEB", MENTA, ["TypeScript", "JavaScript", "React", "Next.js", "Tailwind"]),
               ("DADOS E INFRA", SOL, ["PostgreSQL", "Prisma", "Python", "Docker"]),
-              ("HARDWARE", CORAL, ["ESP32", "Arduino", "C++", "LVGL 9"])]
+              ("HARDWARE E SISTEMA", CORAL, ["ESP32", "Arduino", "C++", "LVGL 9", "C e Assembly", "Arch Linux"])]
     s = ""
     colw = (W - 96) / 3
     for gi, (nome, cor, itens) in enumerate(grupos):
@@ -253,7 +253,7 @@ def stack():
         if gi:
             s += f'<rect x="{x0-22:.0f}" y="36" width="1" height="{H-72}" fill="{PAPEL}" fill-opacity=".12"/>'
     corpo = f'<rect width="{W}" height="{H}" rx="24" fill="{TINTA}"/><rect x="1" y="1" width="{W-2}" height="{H-2}" rx="23" fill="none" stroke="{PAPEL}" stroke-opacity=".14" stroke-width="2"/><g {F}>{s}</g>'
-    salvar("stack.svg", W, H, "Web: TypeScript, JavaScript, React, Next.js, Tailwind. Dados e infra: PostgreSQL, Prisma, Python, Docker. Hardware: ESP32, Arduino, C++, LVGL 9", corpo)
+    salvar("stack.svg", W, H, "Web: TypeScript, JavaScript, React, Next.js, Tailwind. Dados e infra: PostgreSQL, Prisma, Python, Docker. Hardware e sistema: ESP32, Arduino, C++, LVGL 9, C e Assembly, Arch Linux", corpo)
 
 # ---------------------------------------------------------------- cta
 def cta():
@@ -284,5 +284,5 @@ def botao(nome, txt, bg, fg, borda, ponto=None):
 OUT.mkdir(exist_ok=True)
 banner(); numeros(); workito(); stack(); cta()
 botao("btn-portfolio.svg", "Ver o portfólio →", SOL, TINTA, TINTA)
-botao("btn-demos.svg", "5 demos no ar", TINTA, PAPEL, MENTA, MENTA)
+botao("btn-demos.svg", "7 demos no ar", TINTA, PAPEL, MENTA, MENTA)
 print("ok")

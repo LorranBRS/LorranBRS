@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://lorranbrs.github.io/site-portfolio/"><img src="assets/btn-portfolio.svg" alt="Ver o portfólio" height="44"></a>
   &nbsp;
-  <a href="https://lorranbrs.github.io/site-portfolio/#projetos"><img src="assets/btn-demos.svg" alt="5 demos no ar" height="44"></a>
+  <a href="https://lorranbrs.github.io/site-portfolio/#projetos"><img src="assets/btn-demos.svg" alt="7 demos no ar" height="44"></a>
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
   Quando o problema sai da tela, programo ESP32.
 </p>
 
-<img src="assets/numeros.svg" alt="20 sistemas construídos, 5 demos no ar, 89 projetos com ESP32" width="100%">
+<img src="assets/numeros.svg" alt="20 sistemas construídos, 7 demos no ar, 89 projetos com ESP32" width="100%">
 
 ## Em destaque
 
@@ -61,15 +61,31 @@ O repositório é privado, mas posso mostrar ao vivo numa conversa.
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://lorranbrs.github.io/sistema-tst/"><img src="https://lorranbrs.github.io/site-portfolio/assets/previas/tst.webp" alt="Gravação do Sistema TST" width="100%"></a>
+      <h3>Sistema TST</h3>
+      <b>Segurança do trabalho.</b> EPIs, treinamentos, ASOs, inspeções, APR e DDS com alerta de vencimento.<br><br>
+      <a href="https://lorranbrs.github.io/sistema-tst/"><b>Abrir a demo →</b></a> · <a href="https://github.com/LorranBRS/sistema-tst">código</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://lorranbrs.github.io/pulse-admin-prototipo/"><img src="https://lorranbrs.github.io/site-portfolio/assets/previas/pulse.webp" alt="Gravação do protótipo do Pulse" width="100%"></a>
+      <h3>Pulse</h3>
+      <b>Prontidão da equipe.</b> Protótipo do painel que avalia cada turno e avisa o supervisor.<br><br>
+      <a href="https://lorranbrs.github.io/pulse-admin-prototipo/"><b>Abrir a demo →</b></a> · <a href="https://github.com/LorranBRS/pulse-admin-prototipo">código</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <a href="https://lorranbrs.github.io/controle-estoque-epi/"><img src="https://lorranbrs.github.io/site-portfolio/assets/previas/epi.webp" alt="Gravação do controle de estoque de EPI" width="100%"></a>
       <h3>Estoque de EPI</h3>
       <b>Controle de equipamentos.</b> Entradas, saídas por funcionário, alertas e planilhas.<br><br>
       <a href="https://lorranbrs.github.io/controle-estoque-epi/"><b>Abrir a demo →</b></a> · <a href="https://github.com/LorranBRS/controle-estoque-epi">código</a>
     </td>
     <td width="50%" valign="top">
+      <a href="https://lorranbrs.github.io/site-portfolio/#projetos"><img src="https://lorranbrs.github.io/site-portfolio/assets/previas/colibri-kernel.webp" alt="Telas do Colibri Kernel" width="100%"></a>
       <h3>Também no portfólio</h3>
-      <b>Albion em Alta.</b> Ranking e previsão de preços do mercado do Albion Online, em Python.<br><br>
-      <b>LorranWatch.</b> Firmware de smartwatch para ESP32-S3 com tela AMOLED, em C++ e LVGL 9.<br><br>
+      <b>Colibri Kernel.</b> Sistema operacional do zero em C e Assembly, com rede, disco e área de trabalho.<br><br>
+      <b>Colibri Linux.</b> Distribuição baseada no Arch, feita em grupo.<br><br>
+      <b>Albion em Alta</b> e <b>LorranWatch</b> (firmware de smartwatch para ESP32-S3).<br><br>
       <a href="https://lorranbrs.github.io/site-portfolio/#projetos"><b>Ver todos no site →</b></a>
     </td>
   </tr>
@@ -77,7 +93,7 @@ O repositório é privado, mas posso mostrar ao vivo numa conversa.
 
 ## Com o que eu trabalho
 
-<img src="assets/stack.svg" alt="Web: TypeScript, JavaScript, React, Next.js e Tailwind. Dados e infra: PostgreSQL, Prisma, Python e Docker. Hardware: ESP32, Arduino, C++ e LVGL 9." width="100%">
+<img src="assets/stack.svg" alt="Web: TypeScript, JavaScript, React, Next.js e Tailwind. Dados e infra: PostgreSQL, Prisma, Python e Docker. Hardware e sistema: ESP32, Arduino, C++, LVGL 9, C e Assembly e Arch Linux." width="100%">
 
 <br>
 
